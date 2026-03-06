@@ -1703,70 +1703,16 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "b05d7627-56ea-4441-90d9-3e710f619d31",
+            "id": "0b61115a-d629-4a79-b0e4-bfed7959faab",
             "source": {
-              "x": 660,
-              "y": 470
+              "x": 960,
+              "y": 230
             },
             "target": {
-              "x": 880,
-              "y": 470
+              "x": 720,
+              "y": 230
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1784,7 +1730,7 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 10,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1804,14 +1750,14 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "0b61115a-d629-4a79-b0e4-bfed7959faab",
+            "id": "b05d7627-56ea-4441-90d9-3e710f619d31",
             "source": {
-              "x": 900,
-              "y": 430
+              "x": 740,
+              "y": 310
             },
             "target": {
-              "x": 660,
-              "y": 430
+              "x": 960,
+              "y": 310
             }
           }
         ]
