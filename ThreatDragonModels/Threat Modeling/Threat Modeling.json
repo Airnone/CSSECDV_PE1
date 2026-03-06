@@ -1502,7 +1502,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Selects an order \nand updates status",
+              "name": "Sends updated order status",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1516,18 +1516,17 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Selects an order \nand updates status"
+              "Sends updated order status"
             ],
-            "id": "70d661c9-1a78-4bb4-ba1a-1231ab251a34",
+            "id": "e8f85609-17e8-415c-a7c7-0b9461369395",
             "source": {
-              "x": 300,
+              "x": 310,
               "y": 280
             },
             "target": {
-              "x": 520,
+              "x": 530,
               "y": 280
-            },
-            "vertices": []
+            }
           },
           {
             "shape": "flow",
@@ -1549,7 +1548,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Sends updated order status",
+              "name": "Selects an order \nand updates status",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1563,16 +1562,62 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Sends updated order status"
+              "Selects an order \nand updates status"
             ],
-            "id": "e8f85609-17e8-415c-a7c7-0b9461369395",
+            "id": "70d661c9-1a78-4bb4-ba1a-1231ab251a34",
             "source": {
-              "x": 310,
-              "y": 359
+              "x": 300,
+              "y": 240
             },
             "target": {
-              "x": 550,
-              "y": 360
+              "x": 540,
+              "y": 240
+            },
+            "vertices": [],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ]
