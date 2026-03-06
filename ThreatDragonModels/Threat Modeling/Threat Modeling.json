@@ -3491,6 +3491,52 @@
               "y": 134
             },
             "zIndex": 12
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 13,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Creates new menu\nitem record",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Creates new menu\nitem record"
+            ],
+            "id": "068f0e99-5320-4c91-9c92-aeab72be8d24",
+            "source": {
+              "x": 640,
+              "y": 190
+            },
+            "target": {
+              "x": 450,
+              "y": 190
+            }
           }
         ]
       }
