@@ -1549,7 +1549,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Sends updated order status",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1563,7 +1563,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Sends updated order status"
             ],
             "id": "e8f85609-17e8-415c-a7c7-0b9461369395",
             "source": {
@@ -1571,7 +1571,7 @@
               "y": 359
             },
             "target": {
-              "x": 500,
+              "x": 550,
               "y": 360
             }
           }
