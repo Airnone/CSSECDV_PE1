@@ -605,6 +605,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -633,8 +634,7 @@
               "x": 832,
               "y": 112
             },
-            "vertices": [],
-            "zIndex": 11
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -675,7 +675,7 @@
             "id": "ecaa893f-fac1-4f0f-a601-c6a3770a2eef",
             "source": {
               "x": 560,
-              "y": 240
+              "y": 180
             },
             "target": {
               "x": 560,
