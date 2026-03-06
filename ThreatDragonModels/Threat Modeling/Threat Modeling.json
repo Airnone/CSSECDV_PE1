@@ -3416,6 +3416,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -3443,8 +3444,7 @@
             "target": {
               "x": 222,
               "y": 162
-            },
-            "zIndex": 11
+            }
           },
           {
             "shape": "flow",
@@ -3462,6 +3462,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 12,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -3489,8 +3490,7 @@
             "target": {
               "x": 634,
               "y": 134
-            },
-            "zIndex": 12
+            }
           },
           {
             "shape": "flow",
@@ -3512,7 +3512,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Creates new menu\nitem record",
+              "name": "Creates and records \nnew menu item record",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3526,7 +3526,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Creates new menu\nitem record"
+              "Creates and records \nnew menu item record"
             ],
             "id": "068f0e99-5320-4c91-9c92-aeab72be8d24",
             "source": {
@@ -3536,6 +3536,52 @@
             "target": {
               "x": 450,
               "y": 190
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 14,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sends successful \naddition confirmation",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sends successful \naddition confirmation"
+            ],
+            "id": "df89683f-c9d7-4b02-b0f6-03d2ff67c429",
+            "source": {
+              "x": 220,
+              "y": 230
+            },
+            "target": {
+              "x": 20,
+              "y": 230
             }
           }
         ]
