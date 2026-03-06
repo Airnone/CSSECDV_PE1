@@ -794,25 +794,90 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "97db5d6a-493c-412b-8168-a4e52365423c",
+            "id": "1ca46199-4c72-4d4b-aaf0-e6a4540d6205",
             "source": {
-              "x": 110,
-              "y": 326
+              "x": 120,
+              "y": 340
             },
             "target": {
-              "x": 210,
-              "y": 426
+              "x": 420,
+              "y": 310
             },
             "vertices": [
               {
-                "x": 110,
-                "y": 300
+                "x": 260,
+                "y": 460
               },
               {
-                "x": 70,
-                "y": 470
+                "x": 330,
+                "y": 420
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       },
