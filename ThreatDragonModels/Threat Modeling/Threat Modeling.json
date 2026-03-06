@@ -1530,13 +1530,6 @@
                 "informationDisclosure": 1,
                 "denialOfService": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2011,6 +2004,40 @@
               "y": 310
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 14,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "619273f9-7151-4fcb-911f-d7b002b4c650",
+            "source": {
+              "x": 540,
+              "y": 90
+            },
+            "target": {
+              "x": 460,
+              "y": 530
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 490
+              }
+            ]
           }
         ]
       },
