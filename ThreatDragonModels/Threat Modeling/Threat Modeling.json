@@ -608,7 +608,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submits order details",
+              "name": "Stores new order record",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -622,16 +622,16 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Submits order details"
+              "Stores new order record"
             ],
-            "id": "7d9848f0-f5aa-4201-b149-d666719fbfd2",
+            "id": "4177b786-90f2-430f-983e-3afc4719f527",
             "source": {
-              "x": 394,
-              "y": 264
+              "x": 622,
+              "y": 112
             },
             "target": {
-              "x": 604,
-              "y": 264
+              "x": 832,
+              "y": 112
             },
             "vertices": [],
             "zIndex": 11
@@ -652,10 +652,11 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 12,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submits order details",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -669,19 +670,17 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Submits order details"
+              "Data Flow"
             ],
-            "id": "5f4a9c08-6e60-4468-9284-0f13b9200322",
+            "id": "ecaa893f-fac1-4f0f-a601-c6a3770a2eef",
             "source": {
-              "x": 342,
-              "y": 152
+              "x": 560,
+              "y": 240
             },
             "target": {
-              "x": 740,
-              "y": 160
-            },
-            "vertices": [],
-            "zIndex": 12
+              "x": 560,
+              "y": 370
+            }
           }
         ]
       },
