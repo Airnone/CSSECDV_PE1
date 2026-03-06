@@ -2090,8 +2090,8 @@
         "cells": [
           {
             "position": {
-              "x": 280,
-              "y": 280
+              "x": 30,
+              "y": 170
             },
             "size": {
               "width": 290,
@@ -2109,6 +2109,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2192,7 +2193,6 @@
               ]
             },
             "id": "b73443e6-3702-4a99-abdc-fdddbf586660",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Manager",
@@ -2207,8 +2207,8 @@
           },
           {
             "position": {
-              "x": 600,
-              "y": 285
+              "x": 610,
+              "y": 175
             },
             "size": {
               "width": 170,
@@ -2226,6 +2226,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2309,7 +2310,6 @@
               ]
             },
             "id": "12b92294-acfe-4319-96eb-d04e5623d0ed",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Server",
@@ -2327,8 +2327,8 @@
           },
           {
             "position": {
-              "x": 830,
-              "y": 280
+              "x": 1060,
+              "y": 170
             },
             "size": {
               "width": 290,
@@ -2349,6 +2349,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2432,7 +2433,6 @@
               ]
             },
             "id": "e89275fe-7688-48c0-ae10-f33416b1a771",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB Database",
@@ -2448,6 +2448,92 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "8ea51030-ad7a-4a57-85e0-996afcecb333",
+            "source": {
+              "x": 610,
+              "y": 60
+            },
+            "target": {
+              "x": 610,
+              "y": 440
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "3cf8373c-cdd4-483c-8299-571fb482fc5e",
+            "source": {
+              "x": 320,
+              "y": 133
+            },
+            "target": {
+              "x": 600,
+              "y": 140
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 133
+              }
+            ]
           }
         ]
       },
