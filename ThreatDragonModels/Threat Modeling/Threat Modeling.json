@@ -3374,7 +3374,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Logs in and \nnavigates menu",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3388,16 +3388,16 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Logs in and \nnavigates menu"
             ],
             "id": "258bf334-c6b5-44ee-8869-913be9ab52ef",
             "source": {
               "x": 20,
-              "y": 48
+              "y": 128
             },
             "target": {
-              "x": 180,
-              "y": 50
+              "x": 230,
+              "y": 130
             }
           }
         ]
