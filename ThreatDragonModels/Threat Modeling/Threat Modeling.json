@@ -515,6 +515,53 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Sends order \nconfirmation/status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sends order \nconfirmation/status"
+            ],
+            "id": "b50db761-e46a-48f9-83ec-e084a96d2522",
+            "source": {
+              "x": 520,
+              "y": 150
+            },
+            "target": {
+              "x": 310,
+              "y": 150
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Submits order details",
               "description": "",
               "outOfScope": false,
@@ -558,11 +605,10 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 10,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Sends payment request",
+              "name": "Submits order details",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -576,18 +622,19 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Sends payment request"
+              "Submits order details"
             ],
-            "id": "b50db761-e46a-48f9-83ec-e084a96d2522",
+            "id": "7d9848f0-f5aa-4201-b149-d666719fbfd2",
             "source": {
-              "x": 520,
-              "y": 150
+              "x": 394,
+              "y": 264
             },
             "target": {
-              "x": 310,
-              "y": 150
+              "x": 604,
+              "y": 264
             },
-            "vertices": []
+            "vertices": [],
+            "zIndex": 11
           },
           {
             "shape": "flow",
@@ -624,17 +671,17 @@
             "labels": [
               "Submits order details"
             ],
-            "id": "7d9848f0-f5aa-4201-b149-d666719fbfd2",
+            "id": "5f4a9c08-6e60-4468-9284-0f13b9200322",
             "source": {
-              "x": 94,
-              "y": 484
+              "x": 342,
+              "y": 152
             },
             "target": {
-              "x": 304,
-              "y": 484
+              "x": 740,
+              "y": 160
             },
             "vertices": [],
-            "zIndex": 11
+            "zIndex": 12
           }
         ]
       },
