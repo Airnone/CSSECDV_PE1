@@ -137,7 +137,7 @@
           {
             "position": {
               "x": 480,
-              "y": 378.00000000000017
+              "y": 368.00000000000017
             },
             "size": {
               "width": 200,
@@ -656,7 +656,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Sends payment request",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -670,7 +670,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Sends payment request"
             ],
             "id": "ecaa893f-fac1-4f0f-a601-c6a3770a2eef",
             "source": {
@@ -680,7 +680,55 @@
             "target": {
               "x": 560,
               "y": 370
-            }
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sends payment request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sends payment request"
+            ],
+            "id": "bfcf43b6-0db0-4c5f-b752-36ae5d862056",
+            "source": {
+              "x": 842,
+              "y": 352
+            },
+            "target": {
+              "x": 840,
+              "y": 250
+            },
+            "vertices": [],
+            "zIndex": 13
           }
         ]
       },
