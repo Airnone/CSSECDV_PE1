@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 140,
-              "y": 170
+              "x": 110,
+              "y": 70
             },
             "size": {
               "width": 200,
@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "0fdbc1c0-e87f-4c7b-8ed8-289691951c2e",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -137,7 +137,7 @@
           {
             "position": {
               "x": 480,
-              "y": 408.00000000000017
+              "y": 358.00000000000017
             },
             "size": {
               "width": 200,
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "29652026-d813-4321-aa2b-436a10c95ac8",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Third-Party Payment Gateway",
@@ -254,7 +254,7 @@
           {
             "position": {
               "x": 510,
-              "y": 170
+              "y": 70
             },
             "size": {
               "width": 140,
@@ -272,6 +272,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -355,7 +356,6 @@
               ]
             },
             "id": "62766104-cfbf-4f5d-a129-ea621a8b328d",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web Server",
@@ -373,8 +373,8 @@
           },
           {
             "position": {
-              "x": 840,
-              "y": 170
+              "x": 820,
+              "y": 70
             },
             "size": {
               "width": 200,
@@ -395,6 +395,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +479,6 @@
               ]
             },
             "id": "652bdc8d-5fc7-455c-8f1c-34c3028e2034",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB Database",
@@ -533,12 +533,12 @@
             ],
             "id": "d67f93b0-3f61-401c-98ac-15dd2af105e5",
             "source": {
-              "x": 330,
-              "y": 200
+              "x": 310,
+              "y": 120
             },
             "target": {
-              "x": 540,
-              "y": 200
+              "x": 520,
+              "y": 120
             },
             "vertices": []
           },
@@ -562,7 +562,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Sends payment request",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -576,17 +576,18 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Sends payment request"
             ],
-            "id": "923a7531-50de-4477-97f4-fc69280725b0",
+            "id": "b50db761-e46a-48f9-83ec-e084a96d2522",
             "source": {
-              "x": 390,
-              "y": 313
+              "x": 520,
+              "y": 150
             },
             "target": {
-              "x": 490,
-              "y": 413
-            }
+              "x": 310,
+              "y": 150
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -604,11 +605,10 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 10,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Submits order details",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -622,17 +622,19 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Submits order details"
             ],
-            "id": "b108d061-07d2-481f-bdd4-f644944889a4",
+            "id": "7d9848f0-f5aa-4201-b149-d666719fbfd2",
             "source": {
-              "x": 120,
-              "y": 310
+              "x": 94,
+              "y": 484
             },
             "target": {
-              "x": 220,
-              "y": 410
-            }
+              "x": 304,
+              "y": 484
+            },
+            "vertices": [],
+            "zIndex": 11
           }
         ]
       },
