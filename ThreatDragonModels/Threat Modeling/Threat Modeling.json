@@ -3014,6 +3014,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -3097,7 +3098,6 @@
               ]
             },
             "id": "51438c1c-30e1-4eba-88dd-703b2add9f18",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Administrator",
@@ -3134,6 +3134,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -3217,7 +3218,6 @@
               ]
             },
             "id": "cea47ed4-d66b-4a6b-88d0-e89e3a93a9ef",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB Database",
@@ -3255,6 +3255,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -3338,7 +3339,6 @@
               ]
             },
             "id": "76eb0ba6-fb18-4897-97b5-86a33d75b99f",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web Server",
@@ -3399,6 +3399,98 @@
               "x": 230,
               "y": 130
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Submits new menu\nitem details",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Submits new menu\nitem details"
+            ],
+            "id": "4096f6b2-b288-4a9d-969a-3b5e77d54389",
+            "source": {
+              "x": 12,
+              "y": 160
+            },
+            "target": {
+              "x": 222,
+              "y": 162
+            },
+            "zIndex": 11
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sends new menu item\nfor data creation",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sends new menu item\nfor data creation"
+            ],
+            "id": "45eb624b-a452-46f7-9997-1d3f2920d29e",
+            "source": {
+              "x": 424,
+              "y": 132
+            },
+            "target": {
+              "x": 634,
+              "y": 134
+            },
+            "zIndex": 12
           }
         ]
       }
