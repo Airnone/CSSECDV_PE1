@@ -674,11 +674,11 @@
             ],
             "id": "ecaa893f-fac1-4f0f-a601-c6a3770a2eef",
             "source": {
-              "x": 560,
+              "x": 540,
               "y": 180
             },
             "target": {
-              "x": 560,
+              "x": 540,
               "y": 370
             },
             "vertices": []
@@ -703,7 +703,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Sends transaction response",
+              "name": "Sends transaction \nresponse",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -717,16 +717,16 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Sends transaction response"
+              "Sends transaction \nresponse"
             ],
             "id": "bfcf43b6-0db0-4c5f-b752-36ae5d862056",
             "source": {
-              "x": 600,
-              "y": 370
+              "x": 640,
+              "y": 330
             },
             "target": {
-              "x": 600,
-              "y": 180
+              "x": 640,
+              "y": 140
             },
             "vertices": []
           }
