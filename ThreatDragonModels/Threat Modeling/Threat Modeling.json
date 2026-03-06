@@ -656,7 +656,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Sends payment \nrequest",
+              "name": "Sends \npayment \nrequest",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -670,7 +670,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Sends payment \nrequest"
+              "Sends \npayment \nrequest"
             ],
             "id": "ecaa893f-fac1-4f0f-a601-c6a3770a2eef",
             "source": {
@@ -722,13 +722,51 @@
             "id": "bfcf43b6-0db0-4c5f-b752-36ae5d862056",
             "source": {
               "x": 640,
-              "y": 330
+              "y": 370
             },
             "target": {
               "x": 640,
               "y": 140
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 14,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "13859dc4-5494-4c95-ae3d-87c06f5f1d76",
+            "source": {
+              "x": 210,
+              "y": 220
+            },
+            "target": {
+              "x": 380,
+              "y": 490
+            },
+            "vertices": [
+              {
+                "x": 160,
+                "y": 420
+              },
+              {
+                "x": 240,
+                "y": 490
+              }
+            ]
           }
         ]
       },
