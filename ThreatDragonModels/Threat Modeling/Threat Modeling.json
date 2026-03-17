@@ -2,12 +2,19 @@
   "version": "2.6.0",
   "summary": {
     "title": "Threat Modeling",
-    "owner": "",
-    "description": "",
+    "owner": "Eirnan Dicreto",
+    "description": "The overall data flow centers around a central Web Application Server that acts as a secure intermediary for all actions, whether a customer is placing an order, a barista is updating an order's status, a manager is pulling sales reports, or an administrator is adding new menu items. Users interact exclusively with a frontend client, which sends their requests over the to the web server .The server would be used to query or update the MongoDB database, or communicates with an external payment gateway for customer checkouts. Finally, the web server formats the processed data and returns it to the user's screen, ensuring that no external entity ever interacts directly with the database.",
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Gianela Kim Agsalon"
+      },
+      {
+        "name": "Justin Kelli Aganon"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
@@ -4038,7 +4045,7 @@
       }
     ],
     "diagramTop": 4,
-    "reviewer": "",
+    "reviewer": "Ms. Kaye Solomon",
     "threatTop": 71
   }
 }
